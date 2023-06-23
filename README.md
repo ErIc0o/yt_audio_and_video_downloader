@@ -8,21 +8,19 @@ tkinter
 pytube
 PIL (Python Imaging Library)
 pyperclip
+
 You can install these libraries using pip:
 
-Copy code
 pip install tkinter pytube pillow pyperclip
 
 # Usage
-1.Run the script using the command python youtube_downloader.py.
-2.The GUI window will open.
-3.Enter a search query in the "Query" field or directly paste a YouTube link in the "YouTube link" field.
-4.Once the download is complete, a message box will appear showing the download path.
-5.The video details such as title, length, upload date, and author will be displayed below the buttons.
+Run the script using the command python youtube_downloader.py.
+Enter a search query in the "Query" field or directly paste a YouTube link in the "YouTube link" field
+Click the "Search" button to open a web browser with YouTube search results based on the query entered
+Click the "Download Video" button to download the video. You can select the desired video resolution from the drop-down menu.
+Click the "Download Audio" button to extract audio from the video and save it as an MP3 file.
+Click the "Browse" button to choose the download destination folder
+The video details such as title, length, upload date, and author will be displayed below the buttons
 
 
-# License
-This script is licensed under the MIT License. Feel free to modify and distribute it according to your needs.
 
-# Disclaimer
-This script is intended for personal use only. Please respect the YouTube terms of service and the rights of content creators when using this script.
