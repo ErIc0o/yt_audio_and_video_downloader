@@ -227,7 +227,7 @@ download_button.place(x=70, y=130)
 
 # Combobox for selecting video resolution
 resolution_combobox = ttk.Combobox(root, state="readonly", width=3,font="Georgia, 13")
-resolution_combobox['values'] = ( "720p","360p")
+resolution_combobox['values'] = ("1080p" ,"720p","480p","360p","240p","144p")
 resolution_combobox.set("720p")
 resolution_combobox.place(x=7, y=135)
 
